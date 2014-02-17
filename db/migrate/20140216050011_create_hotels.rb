@@ -1,0 +1,11 @@
+class CreateHotels < ActiveRecord::Migration
+  def change
+    create_table :hotels do |t|
+      
+      t.string :hotelId 
+      t.string :hotelName 
+
+      t.timestamps
+    end
+  end
+end

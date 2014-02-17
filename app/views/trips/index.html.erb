@@ -1,0 +1,19 @@
+<div id="details">
+	<div id="detailsWrapper">
+		<div id="detailsForm">
+			<h1>
+				CREATE YOUR TRIP IN A FUN AND SIMPLE WAY
+			</h1>
+			<div id="formWrapper">
+				<%= form_tag( "/trips/details", method: "post") do%>
+					<%= text_field_tag(:budget) %>
+					<%= text_field_tag(:departure_city)%>
+					<%= text_field_tag(:destitanation_city)%>
+					<%= text_field_tag(:departure_date)%>
+					<%= text_field_tag(:return_date)%>
+					<%= submit_tag%>
+				<% end%>
+			</div>
+		</div>
+	</div>	
+</div>

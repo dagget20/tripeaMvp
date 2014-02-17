@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TripeaMVP</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<header>
+       	<div id="headerWrapper" class="containter clearfix"> 
+       		<a href="index.html"><img src="img/logo-2.png" class="logo"></a>
+       		<nav id="navBar">
+       			<ul id="navBar-inner">
+       				<li>About</li><!--
+       				--><li>Contact Us</li><!--
+       				--><li>Terms of Use</li><!--
+       				--><li>Blog</li><!--
+       				--><li>Sign in</li><!--
+       				--><li>Register</li>
+       			</ul>
+       		</nav>
+       	</div>
+       </header>
+
+<%= yield %>
+
+</body>
+</html>
