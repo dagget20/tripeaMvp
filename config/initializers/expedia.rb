@@ -1,6 +1,6 @@
 Expedia.setup do |config|
 	config.cid = 55505 # your cid once you go live.
-	config.api_key = 'cbrzfta369qwyrm9t5b8y8kf'
+	config.api_key = 'api_key'
 	config.shared_secret = 'your_shared_secret'
 	config.locale = 'en_US' # For Example 'de_DE'. Default is 'en_US'
 	config.currency_code = 'USD' # For Example 'EUR'. Default is 'USD'
